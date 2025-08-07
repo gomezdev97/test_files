@@ -5,6 +5,7 @@ metadata:
   labels:
     app: wordpress
 spec:
+  persistentVolumeReclaimPolicy: Delete
   storageClassName: csi-rbd-sc
   capacity:
     storage: 20Gi
