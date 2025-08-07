@@ -61,12 +61,12 @@ spec:
           value: wordpress
         - name: WORDPRESS_DEBUG
           value: 1
-        - name: WORDPRESS_REDIS_HOST
-          value: redis-service
-        - name: WORDPRESS_REDIS_PORT
-          value: 6379
-        - name: WORDPRESS_REDIS_DATABASE
-          value: 0
+        #- name: WORDPRESS_REDIS_HOST
+          #value: redis-service
+        #- name: WORDPRESS_REDIS_PORT
+          #value: 6379
+        #- name: WORDPRESS_REDIS_DATABASE
+          #value: 0
         ports:
         - containerPort: 80
           name: wordpress
